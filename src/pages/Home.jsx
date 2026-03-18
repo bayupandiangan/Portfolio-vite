@@ -25,7 +25,7 @@ const Home = () => {
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Your Name
+                Bayu Pandiangan
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mt-4">
@@ -52,10 +52,10 @@ const Home = () => {
             </div>
 
             <div className="flex gap-4 mt-8 justify-center md:justify-start">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition">
+              <a href="https://github.com/bayupandiangan" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition">
+              <a href="https://linkedin.com/in/bayu-pandiangan" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition">
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
