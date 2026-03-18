@@ -9,56 +9,90 @@ import project4 from '../assets/project4.jpg'
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'AI-Powered Task Manager',
-      description: 'A smart task management app with AI suggestions and real-time collaboration.',
-      image: 'https://images.unsplash.com/...', // ganti dengan URL gambar atau import lokal
-      tags: ['React', 'Node.js', 'OpenAI', 'MongoDB'],
-      liveLink: 'https://example.com',
-      codeLink: 'https://github.com',
-      featured: true,
-    },
-    {
-      title: 'E-Commerce Platform',
-      description: 'Full-featured e-commerce with cart, payments, and admin dashboard.',
-      image: 'https://images.unsplash.com/...',
-      tags: ['Next.js', 'Stripe', 'Tailwind', 'Prisma'],
-      liveLink: 'https://example.com',
-      codeLink: 'https://github.com',
-    },
-    {
-      title: 'Portfolio 2025',
-      description: 'Modern portfolio with smooth animations and dark mode.',
-      image: 'https://images.unsplash.com/...',
-      tags: ['React', 'Framer Motion', 'Tailwind'],
-      liveLink: 'https://example.com',
-      codeLink: 'https://github.com',
-    },
-      {
-    title: 'RekomSaham',
-    description: 'A stock recommendation system using the TOPSIS method to rank companies based on fundamental ratios. Includes full calculation process, data visualization, and PDF export for analysis.',
+  {
+    title: 'AI-Powered Task Manager',
+    description: 'Smart task management app with AI-generated task suggestions, priority scoring, and productivity insights dashboard.',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c',
+    tags: ['React', 'Node.js', 'OpenAI', 'MongoDB'],
+    liveLink: '#',
+    codeLink: '#',
+    featured: true,
+  },
+
+  {
+    title: 'E-Commerce Platform',
+    description: 'Full-stack e-commerce platform with product management, cart system, Stripe payment integration, and admin dashboard.',
+    image: 'https://images.unsplash.com/photo-1515168833906-d2a3b82b302a',
+    tags: ['Next.js', 'Stripe', 'Tailwind', 'Prisma'],
+    liveLink: '#',
+    codeLink: '#',
+    featured: true,
+  },
+
+  {
+    title: 'Coffee Shop POS (Desktop App)',
+    description: 'Offline-first cashier application built with Electron and SQLite, supporting multi-user login and thermal receipt printing (ESC/POS).',
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+    tags: ['Electron', 'SQLite', 'JavaScript', 'Node.js'],
+    liveLink: '#',
+    codeLink: '#',
+    featured: true,
+  },
+
+  {
+    title: 'RekomSaham (TOPSIS System)',
+    description: 'Decision support system for stock recommendation using TOPSIS method with full calculation steps, ranking, and PDF export.',
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3',
     tags: ['PHP', 'MySQL', 'JavaScript', 'CSS'],
     liveLink: '#',
     codeLink: '#',
-      },
+  },
+
   {
-    title: 'StockBase',
-    description: 'A stock management system for product inventory with CRUD operations, user authentication, and responsive dashboard interface.',
+    title: 'StockBase Inventory System',
+    description: 'Inventory management system with CRUD operations, stock tracking, authentication, and responsive dashboard.',
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d',
     tags: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
     liveLink: '#',
     codeLink: '#',
   },
+
   {
-    title: 'Eating Order Apps',
-    description: 'A basic food ordering application that simulates menu selection, order calculation, and simple interactive UI.',
-    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
-    tags: ['JavaScript', 'HTML', 'CSS'],
+    title: 'Realtime Chat App',
+    description: 'Full-stack realtime chat application with authentication, typing indicators, and live messaging using WebSocket.',
+    image: 'https://images.unsplash.com/photo-1525182008055-f88b95ff7980',
+    tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    liveLink: '#',
+    codeLink: '#',
+  },
+
+  {
+    title: 'Personal Finance Tracker',
+    description: 'Finance tracking app with expense categorization, monthly analytics, and data visualization dashboard.',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f',
+    tags: ['React', 'Chart.js', 'Node.js', 'Express'],
+    liveLink: '#',
+    codeLink: '#',
+  },
+
+  {
+    title: 'Modern Portfolio Website',
+    description: 'Responsive portfolio website with animations, dark mode, and optimized performance using Next.js.',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
+    tags: ['Next.js', 'Tailwind', 'Framer Motion'],
+    liveLink: '#',
+    codeLink: '#',
+  },
+
+  {
+    title: 'Booking System (Service App)',
+    description: 'Online booking system for services with scheduling, user authentication, and admin management panel.',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f',
+    tags: ['Next.js', 'Node.js', 'MySQL', 'Tailwind'],
     liveLink: '#',
     codeLink: '#',
   }
-  ]
+]
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
