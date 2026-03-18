@@ -1,13 +1,13 @@
-import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
-import { ArrowRight, Github, Linkedin } from 'lucide-react'
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { ArrowRight, Github, Linkedin } from "lucide-react";
 
 const Home = () => {
   return (
     <section className="relative overflow-hidden py-20 md:py-28">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-800" />
-      
+
       {/* Abstract shapes (blobs) */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
       <div className="absolute top-0 right-0 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
@@ -23,18 +23,19 @@ const Home = () => {
             className="flex-1 text-center md:text-left"
           >
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-              Hi, I'm{' '}
+              Hi, I'm{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Bayu Pandiangan
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mt-4">
-              Fullstack Developer crafting amazing web experiences with React & Node.js
+              Fullstack Developer crafting amazing web experiences with React &
+              Node.js
             </p>
             <p className="text-lg text-gray-500 dark:text-gray-400 mt-2 max-w-xl">
               I build responsive, performant, and beautiful web applications.
             </p>
-            
+
             <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
               <Link
                 to="/projects"
@@ -52,10 +53,20 @@ const Home = () => {
             </div>
 
             <div className="flex gap-4 mt-8 justify-center md:justify-start">
-              <a href="https://github.com/bayupandiangan" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition">
+              <a
+                href="https://github.com/bayupandiangan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition"
+              >
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com/in/bayu-pandiangan" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition">
+              <a
+                href="https://linkedin.com/in/bayu-pandiangan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-gray-200 dark:bg-gray-800 rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition"
+              >
                 <Linkedin className="w-6 h-6" />
               </a>
             </div>
@@ -81,7 +92,7 @@ const Home = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
