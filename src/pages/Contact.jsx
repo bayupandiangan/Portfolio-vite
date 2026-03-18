@@ -26,7 +26,7 @@ const Contact = () => {
         }).toString(),
       })
 
-      alert('✅ Message sent successfully!')
+      alert(' Message sent successfully!')
 
       setFormData({
         name: '',
@@ -34,7 +34,7 @@ const Contact = () => {
         message: '',
       })
     } catch (error) {
-      alert('❌ Failed to send message')
+      alert(' Failed to send message')
     }
   }
 
