@@ -34,16 +34,31 @@ const Projects = () => {
       liveLink: 'https://example.com',
       codeLink: 'https://github.com',
     },
-    {
-      title: 'Weather Dashboard',
-      description: 'Real-time weather app with interactive maps and 7-day forecast.',
-      image: 'https://images.unsplash.com/...',
-      tags: ['Vue.js', 'D3.js', 'Weather API'],
-      liveLink: 'https://example.com',
-      codeLink: 'https://github.com',
-    },
+      {
+    title: 'RekomSaham',
+    description: 'A stock recommendation system using the TOPSIS method to rank companies based on fundamental ratios. Includes full calculation process, data visualization, and PDF export for analysis.',
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3',
+    tags: ['PHP', 'MySQL', 'JavaScript', 'CSS'],
+    liveLink: '#',
+    codeLink: '#',
+      },
+  {
+    title: 'StockBase',
+    description: 'A stock management system for product inventory with CRUD operations, user authentication, and responsive dashboard interface.',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d',
+    tags: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
+    liveLink: '#',
+    codeLink: '#',
+  },
+  {
+    title: 'Eating Order Apps',
+    description: 'A basic food ordering application that simulates menu selection, order calculation, and simple interactive UI.',
+    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
+    tags: ['JavaScript', 'HTML', 'CSS'],
+    liveLink: '#',
+    codeLink: '#',
+  }
   ]
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

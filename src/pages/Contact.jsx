@@ -62,8 +62,8 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-blue-600" />
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
-                  <a href="mailto:hello@yourname.com" className="font-medium hover:text-blue-600">
-                    hello@yourname.com
+                  <a href="mailto:bayuurip14@gmail.com" className="font-medium hover:text-blue-600">
+                    bayuurip14@gmail.com
                   </a>
                 </div>
               </div>
@@ -72,8 +72,8 @@ const Contact = () => {
                 <Github className="w-6 h-6 text-blue-600" />
                 <div>
                   <p className="text-sm text-gray-500">GitHub</p>
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-blue-600">
-                    @yourusername
+                  <a href="https://github.com/bayupandiangan" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-blue-600">
+                    @bayupandiangan
                   </a>
                 </div>
               </div>
@@ -82,8 +82,8 @@ const Contact = () => {
                 <Linkedin className="w-6 h-6 text-blue-600" />
                 <div>
                   <p className="text-sm text-gray-500">LinkedIn</p>
-                  <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-blue-600">
-                    /in/yourname
+                  <a href="https://linkedin.com/in/bayu-pandiangan" target="_blank" rel="noopener noreferrer" className="font-medium hover:text-blue-600">
+                   bayu pandiangan
                   </a>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full pl-10 pr-4 py-3 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition"
-                    placeholder="John Doe"
+                    placeholder="name"
                   />
                 </div>
               </div>
@@ -128,7 +128,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full pl-10 pr-4 py-3 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-transparent transition"
-                    placeholder="john@example.com"
+                    placeholder="name@example.com"
                   />
                 </div>
               </div>
