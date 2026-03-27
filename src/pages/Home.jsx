@@ -84,7 +84,7 @@ const Home = () => {
               <div class="w-64 h-64 md:w-80 md:h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-400 rounded-3xl rotate-6 shadow-2xl flex items-center justify-center p-6">
                 <div class="aspect-square w-full h-full rounded-full overflow-hidden">
                   <img
-                    src="./src/assets/bayu.jpeg" /* <-- Ganti ini dengan URL foto Anda */
+                    src="/bayu.jpeg" /* <-- Ganti ini dengan URL foto Anda */
                     alt="Foto Profil"
                     class="object-cover w-full h-full"
                   />
