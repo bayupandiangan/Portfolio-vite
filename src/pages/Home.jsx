@@ -81,8 +81,14 @@ const Home = () => {
           >
             <div className="relative">
               {/* Placeholder ilustrasi - ganti dengan gambar avatar jika ada */}
-              <div className="w-64 h-64 md:w-80 md:h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-400 rounded-3xl rotate-6 shadow-2xl flex items-center justify-center text-white text-8xl">
-                👨‍💻
+              <div class="w-64 h-64 md:w-80 md:h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-400 rounded-3xl rotate-6 shadow-2xl flex items-center justify-center p-6">
+                <div class="aspect-square w-full h-full rounded-full overflow-hidden">
+                  <img
+                    src="./src/assets/bayu.jpeg" /* <-- Ganti ini dengan URL foto Anda */
+                    alt="Foto Profil"
+                    class="object-cover w-full h-full"
+                  />
+                </div>
               </div>
               {/* Decorative blur elements */}
               <div className="absolute -top-4 -right-4 w-20 h-20 bg-blue-500 rounded-full opacity-20 blur-2xl" />
