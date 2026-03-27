@@ -44,7 +44,7 @@ useEffect(() => {
     >
       <div className="container mx-auto flex justify-between items-center p-4">
         <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          Portfolio
+          Bayu.dev
         </Link>
 
         {/* Desktop Menu */}
