@@ -35,7 +35,7 @@ const Projects = () => {
     image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
     tags: ['Electron', 'SQLite', 'JavaScript', 'Node.js'],
     liveLink: '#',
-    codeLink: '#',
+    codeLink: 'https://github.com/bayupandiangan/coffee-shop-pos',
     featured: true,
   },
 
@@ -45,7 +45,7 @@ const Projects = () => {
     image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3',
     tags: ['PHP', 'MySQL', 'JavaScript', 'CSS'],
     liveLink: '#',
-    codeLink: '#',
+    codeLink: 'https://github.com/bayupandiangan/saham-topsis/',
   },
 
   {
@@ -54,7 +54,7 @@ const Projects = () => {
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d',
     tags: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript'],
     liveLink: '#',
-    codeLink: '#',
+    codeLink: 'https://github.com/bayupandiangan/stockbarang/',
   },
 
   {
@@ -80,8 +80,8 @@ const Projects = () => {
     description: 'Responsive portfolio website with animations, dark mode, and optimized performance using Next.js.',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
     tags: ['Next.js', 'Tailwind', 'Framer Motion'],
-    liveLink: '#',
-    codeLink: '#',
+    liveLink: 'https://bayupandiangan.netlify.app/',
+    codeLink: 'https://github.com/bayupandiangan/Portfolio-vite',
   },
 
   {
